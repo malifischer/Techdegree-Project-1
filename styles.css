@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: white;
+  background: pink;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: #1f5c7c;
+    color: black;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/daisies.jpg') no-repeat top center ;
+  background: url('images/leaves.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,7 +70,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 6px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -79,28 +79,29 @@ header .profile-image:hover {
 .tag {
   background-color: ##ffe299;
   color: black;
-  padding: 10px;
-  border-radius: 5px;
+  font-weight: bolder;
+  padding: 20px;
+  border-radius: 20px;
   display: table;
   margin: 10px auto;
 }
 .location {
   background-color: ##ffe299;
   color: black;
-  border: 10px solid white
+  border: 5px dashed pink
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fcd9e1;
+  background: #dbfff3;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: pink;
 }
 
 ul.skills {
